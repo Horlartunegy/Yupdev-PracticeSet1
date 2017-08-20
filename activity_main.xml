@@ -1,0 +1,41 @@
+﻿<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity"
+
+<ImageView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:scaleType="center_Crop"
+	android:src="@drawable/androidparty" />
+
+<TextView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="36sp"
+    	android:fontFamily="sans-serifs-light"
+    	android:textColor="@android: colour/white"
+    	android:padding="20dp"
+    	android:text="Happy Birthday, Ben!"  />
+
+<TextView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	android:layout_alignParentRight="true"
+    	android:textSize="36sp"
+    	android:fontFamily="sans-serifs-light"
+    	android:textColour="@android: color/white"
+    	android:padding="20dp"
+    	android:text="From, Lyla"
+    
+</RelativeLayout>
+
+
+
+
+
+
+
+
